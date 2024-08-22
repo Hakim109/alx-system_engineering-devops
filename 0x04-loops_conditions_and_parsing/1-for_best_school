@@ -1,10 +1,8 @@
 #!/usr/bin/env bash
-# This script is displaying "Best School" 10 times
-((i = 0))
-for ((; ;)); do
-    echo "Best School"
-    if (( i == 9)); then
-        break
-    fi
-    ((i++))
+# This script displays "Best School" 10 times
+
+school_phrase="Best School"
+for _ in {1..10}
+do 
+    echo "$school_phrase"
 done
